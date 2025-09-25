@@ -8,6 +8,7 @@ public class Calculator {
         switch (sign) {
             case PLUS:
                 return arg1 + arg2; // branch implement_plus
+
             default:
                 return 0d;
         }
@@ -16,5 +17,6 @@ public class Calculator {
     public static void main(String[] args) {
         Calculator c = new Calculator();
         System.out.println("Plus: " + c.calculate(SIGN.PLUS, 5.0, 3.0));
+
     }
 }
